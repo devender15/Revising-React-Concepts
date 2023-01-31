@@ -15,4 +15,4 @@ const Counts = () => {
   );
 };
 
-export default Counts;
+export default React.memo(Counts);
